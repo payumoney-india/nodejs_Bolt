@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>PayUmoney BOLT NODE JS Kit</title>
+</head>
+<style type="text/css">
+	.main {
+		margin-left:30px;
+		font-family:Verdana, Geneva, sans-serif, serif;
+	}
+	.text {
+		float:left;
+		width:180px;
+	}
+	.dv {
+		margin-bottom:5px;
+	}
+</style>
+<body>
+<div class="main">
+	<div>
+    	<img src="images/payumoney.png" />
+    </div>
+    <div>
+    	<h3>NODE JS BOLT Kit Response</h3>
+    </div>
+	
+    <div class="dv">
+    <span class="text"><label>Merchant Key:</label></span>
+    <span><%= key %></span>
+    </div>
+    
+    <div class="dv">
+    <span class="text"><label>Merchant Salt:</label></span>
+    <span><%= salt %></span>
+    </div>
+    
+    <div class="dv">
+    <span class="text"><label>Transaction/Order ID:</label></span>
+    <span><%= txnid %></span>
+    </div>
+    
+    <div class="dv">
+    <span class="text"><label>Amount:</label></span>
+    <span><%= amount %></span>    
+    </div>
+    
+    <div class="dv">
+    <span class="text"><label>Product Info:</label></span>
+    <span><%= productinfo %></span>
+    </div>
+    
+    <div class="dv">
+    <span class="text"><label>First Name:</label></span>
+    <span><%= firstname %></span>
+    </div>
+    
+    <div class="dv">
+    <span class="text"><label>Email ID:</label></span>
+    <span><%= email %></span>
+    </div>
+    
+    <div class="dv">
+    <span class="text"><label>Mihpayid:</label></span>
+    <span><%= mihpayid %></span>
+    </div>
+    
+    <div class="dv">
+    <span class="text"><label>Hash:</label></span>
+    <span><%= resphash %></span>
+    </div>
+    
+    <div class="dv">
+    <span class="text"><label>Transaction Status:</label></span>
+    <span><%= status %></span>
+    </div>
+    
+    <div class="dv">
+    <span class="text"><label>Message:</label></span>
+    <span><%= msg %></span>
+    </div>
+	<br />
+	<br />
+	<div class="dv">
+    <span class="text"><a href="http://localhost:3000" alt="New Order">New Order</a></span>    
+    </div>
+</div>
+</body>
+</html>
+	
